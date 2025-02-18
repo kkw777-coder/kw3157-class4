@@ -1,5 +1,13 @@
 
 
 def FizzBuzz(start, finish):
-    v = ['buzz', 41, 'fizz', 43, 424, 'fizzbuzz']
-    return(v)
+    for i in range (start,finish+1):
+        if i%3==0:
+            result.append ("Fizz")
+        elif i%5==0:
+            result.append ("Buzz")
+        elif i%3==0 and i%5==0:
+            result.append ("FizzBuzz")
+        else:
+            result.append (i)
+    return result
